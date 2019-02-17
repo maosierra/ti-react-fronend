@@ -7,7 +7,7 @@ import Header from './../components/Global/Header';
 import Content from './../components/Global/Content';
 
 // Assets
-import './../components/css/App.css';
+import './../components/Global/css/App.css';
 
 class App extends Component {
   static propTypes = {
@@ -18,7 +18,7 @@ class App extends Component {
     const { children } = this.props;
 
     return (
-      <div className="App">
+      <div className="App h-100">
         <Header></Header>
         <Content body={children}></Content>
       </div>

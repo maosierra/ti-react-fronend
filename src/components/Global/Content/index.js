@@ -11,7 +11,7 @@ class Content extends Component {
         const { body } = this.props;
 
         return (
-            <div>
+            <div className="h-100">
                 {body}
             </div>
         );

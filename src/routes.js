@@ -13,7 +13,7 @@ import Page404 from './components/Page404';
 const AppRoutes = () => 
     <App>
         <Switch>
-            <Route exact path="/Products" component={Products} />
+            <Route path="/Products" component={Products} />
             <Route exact path="/Clients" component={Clients} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/" component={Home} />
